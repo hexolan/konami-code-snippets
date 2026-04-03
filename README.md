@@ -14,7 +14,7 @@ You can use this as a library within your web applications.
 
 #### Links
 
-Version 1.0.0: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@1.0.0/src/core.min.js>
+Version 1.0 (+ hotfixes): <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@1.0/src/core.min.js>
 
 Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/core.min.js>
 

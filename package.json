@@ -1,6 +1,6 @@
 {
   "name": "konami-code-snippets",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "minify": "minify src/core.js > src/core.min.js"
