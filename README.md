@@ -10,13 +10,35 @@ Read more about the Konami Code from the associated [Wikipedia entry](https://en
 
 ### JSDelivr
 
-stub
+You can use this as a library within your web applications.
 
-minified js (at set version tag)
+#### Links
+
+Version 1.0.0: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@1.0.0/src/core.min.js>
+
+Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/core.min.js>
+
+#### Example
+
+```html
+<html>
+  <body>
+    (...content)
+
+    <script src="https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/core.min.js" />
+
+    <script>
+      document.addEventListener("keydown", handleKonami(() => {
+        console.log('konami!');
+      }));
+    </script>
+  </body>
+</html>
+```
 
 ### Direct
 
-stub
+An example of direct usage can be seen within the source of [examples/redirect.html](/examples/redirect.html).
 
 ## License
 

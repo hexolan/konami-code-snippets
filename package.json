@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "minify": "minify src/main.js > src/main.min.js"
+    "minify": "minify src/core.js > src/core.min.js"
   },
   "author": "Declan Teevan <dt@hexolan.com>",
   "license": "MIT",

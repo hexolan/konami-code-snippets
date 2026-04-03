@@ -13,8 +13,3 @@ let handleKonami = (e) => (callback) => {
     sequenceStep = 0;
   }
 }
-
-// Example usage:
-document.addEventListener("keydown", handleKonami(() => {
-  console.log('konami!');
-}));
