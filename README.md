@@ -4,6 +4,10 @@ The Konami Code (sometimes called the Contra Code) is a cheat code that has appe
 
 It is now often used as a gag, homage or an easter egg within many products or websites.
 
+> ↑ ↑ ↓ ↓ ← → ← → B A
+>
+> Up, Up, Down, Down, Left, Right, Left, Right, B, A
+
 Read more about the Konami Code from the associated [Wikipedia entry](https://en.wikipedia.org/wiki/Konami_Code).
 
 ## Usage
