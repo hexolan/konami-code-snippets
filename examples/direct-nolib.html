@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Konami Code Snippets: Direct Usage</title>
+    </head>
+
+    <body>
+        <p>Konami Code</p>
+
+        <script>
+            const konamiSequence = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"]; let konamiStep = 0, handleKonami = callback => e => { konamiSequence[sequenceStep] === e.key ? (konamiStep += 1, konamiStep === konamiSequence.length && (konamiStep = 0, callback())) : konamiStep = 0 };
+
+            function konamiCallback() {
+                window.location.href = `https://github.com/hexolan/konami-code-snippets`;
+            }
+
+            document.addEventListener("keydown", handleKonami(konamiCallback));
+        </script>
+    </body>
+</html>

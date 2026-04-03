@@ -1,6 +1,6 @@
 # Konami Code Snippets
 
-The Konami Code (sometimes called the Contra Code) is a cheat code that has appeared in many Konami video games.
+The Konami Code (sometimes called the Contra Code) is a cheat code from many Konami video games.
 
 It is now often used as a gag, homage or an easter egg within many products or websites.
 
@@ -10,7 +10,7 @@ It is now often used as a gag, homage or an easter egg within many products or w
 
 Read more about the Konami Code from the associated [Wikipedia entry](https://en.wikipedia.org/wiki/Konami_Code).
 
-## Usage
+## 🚀 Usage
 
 ### JSDelivr
 
@@ -20,7 +20,7 @@ You can use this as a library within your web applications.
 
 Version 1.0 (+ hotfixes): <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@1.0/src/core.min.js>
 
-Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/core.min.js>
+Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@main/src/core.min.js>
 
 #### Example
 
@@ -29,7 +29,7 @@ Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/co
   <body>
     (...content)
 
-    <script src="https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/core.min.js" />
+    <script src="https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@main/src/core.min.js"></script>
 
     <script>
       document.addEventListener("keydown", handleKonami(() => {
@@ -42,9 +42,9 @@ Latest Version: <https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets/src/co
 
 ### Direct
 
-An example of direct usage can be seen within the source of [examples/redirect.html](/examples/redirect.html).
+An example of direct usage can be seen within the source of [examples/direct-nolib-unminified.html](/examples/direct-nolib-unminified.html).
 
-## License
+## 📜 License
 
 The code contained within this repository is released under the [MIT License](/LICENSE.txt).
 

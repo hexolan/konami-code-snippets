@@ -1,15 +1,17 @@
-const keySequence = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
-let sequenceStep = 0;
+// SPDX-License-Identifier: MIT
 
-let handleKonami = (e) => (callback) => {
-  if (keySequence[sequenceStep] === e.key) {
-    sequenceStep += 1;
+const konamiSequence = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+let konamiStep = 0;
 
-    if (sequenceStep === keySequence.length) {
-      sequenceStep = 0;
+let handleKonami = (callback) => (e) => {
+  if (konamiSequence[sequenceStep] === e.key) {
+    konamiStep += 1;
+
+    if (konamiStep === konamiSequence.length) {
+      konamiStep = 0;
       callback();
     }
   } else {
-    sequenceStep = 0;
+    konamiStep = 0;
   }
 }

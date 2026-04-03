@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Konami Code Snippets</title>
+    </head>
+
+    <body>
+        <p>Konami Code - O(1)</p>
+
+        <sup>Note: currently just lower case `b` and `a` keys.</sup>
+        
+        <sup>(as using <code>event.code</code> not deprecated <code>event.keyCode</code>)</sup>
+
+        <script src="https://cdn.jsdelivr.net/gh/hexolan/konami-code-snippets@main/src/core.min.js"></script>
+        <script>
+            function konamiCallback() {
+                window.location.href = `https://github.com/hexolan/konami-code-snippets`;
+            }
+
+            document.addEventListener("keydown", handleKonami(konamiCallback));
+        </script>
+    </body>
+</html>
