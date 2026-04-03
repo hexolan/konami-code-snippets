@@ -8,11 +8,13 @@ Read more about the Konami Code from the associated [Wikipedia entry](https://en
 
 ## Usage
 
-**JSDelivr**
+### JSDelivr
 
 stub
 
-**Direct**
+minified js (at set version tag)
+
+### Direct
 
 stub
 

@@ -1,16 +1,15 @@
 <html>
     <head>
-        <title>KC Examples: Redirect</title>
+        <title>Konami Code Snippets: Redirect</title>
     </head>
     <body>
-        <p>Enter the code</p>
+        <p>Enter the code.</p>
 
         <script>
             const keySequence = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
             let sequenceStep = 0;
 
             document.addEventListener("keydown", function (e) {
-                console.log(e)
                 if (keySequence[sequenceStep] === e.key) {
                     sequenceStep += 1;
 
